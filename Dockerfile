@@ -20,5 +20,7 @@ RUN pip install -r requirements.txt
 COPY . /app
 WORKDIR /app
 
+EXPOSE 3000
+
 # Run server
 CMD ["python", "line_webhook.py"]
