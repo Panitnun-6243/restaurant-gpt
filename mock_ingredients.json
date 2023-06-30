@@ -1,0 +1,29 @@
+{
+  "date": "2023-05-04",
+  "ingredients": [
+    {
+      "name": "หมู",
+      "quantity": 5
+    },
+    {
+      "name": "ไก่",
+      "quantity": 7
+    },
+    {
+      "name": "กุ้ง",
+      "quantity": 3
+    },
+    {
+      "name": "แตงกวา",
+      "quantity": 10
+    },
+    {
+      "name": "มะเขือเทศ",
+      "quantity": 5
+    },
+    {
+      "name": "กระเทียม",
+      "quantity": 3
+    }
+  ]
+}

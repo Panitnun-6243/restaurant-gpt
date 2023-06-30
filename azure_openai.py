@@ -1,6 +1,7 @@
 # Note: The openai-python library support for Azure OpenAI is in preview.
 import os
 import openai
+import json
 
 from dotenv import load_dotenv
 
@@ -41,3 +42,19 @@ def ask_azure_gpt(question):
 def ask_azure_dalle(question):
     response = openai.Image.create(prompt=question, size="512x512", n=2)
     return response["data"][0]["url"]
+
+
+def load_mock_daily_sales():
+    with open('mock_daily_sales.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    return data
+
+def load_mock_ingredients():
+    with open('mock_ingredients.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    # Convert quantity values to integers
+    for ingredient in data["ingredients"]:
+        ingredient["quantity"] = int(ingredient["quantity"])
+
+    return data
