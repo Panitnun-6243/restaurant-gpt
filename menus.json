@@ -3,34 +3,24 @@
         "date": "2023-06-01",
         "sales": [
             {
-                "item": "ปูอัดทอดกรอบ",
-                "quantity": 8,
-                "revenue": 8
-            },
-            {
                 "item": "อูมิมัตสิรึดีไลท์",
-                "quantity": 12,
-                "revenue": 12
+                "quantity": 7,
+                "revenue": 210
             },
             {
-                "item": "ยำสาหร่ายกุ้งแก้ว",
-                "quantity": 9,
-                "revenue": 9
+                "item": "สาหร่ายยำกุ้งซูชิ",
+                "quantity": 2,
+                "revenue": 20
             },
             {
                 "item": "กุ้งเทมปุระผัดขิงดอง",
+                "quantity": 7,
+                "revenue": 70
+            },
+            {
+                "item": "ยำปูอัดสาหร่าย",
                 "quantity": 2,
-                "revenue": 2
-            },
-            {
-                "item": "สลัดหางปลาแซลมอน",
-                "quantity": 10,
-                "revenue": 10
-            },
-            {
-                "item": "ซูชิแมงกะพรุนงา",
-                "quantity": 11,
-                "revenue": 11
+                "revenue": 20
             }
         ]
     },
@@ -38,34 +28,34 @@
         "date": "2023-06-02",
         "sales": [
             {
+                "item": "ปูอัดทอดกรอบ",
+                "quantity": 5,
+                "revenue": 50
+            },
+            {
                 "item": "อูมิมัตสิรึดีไลท์",
-                "quantity": 14,
-                "revenue": 14
+                "quantity": 2,
+                "revenue": 60
             },
             {
                 "item": "ซากุระซุชิ",
-                "quantity": 14,
-                "revenue": 14
+                "quantity": 9,
+                "revenue": 135
             },
             {
-                "item": "ยำสาหร่ายกุ้งแก้ว",
-                "quantity": 1,
-                "revenue": 1
-            },
-            {
-                "item": "สาหร่ายยำกุ้งซูชิ",
-                "quantity": 14,
-                "revenue": 14
+                "item": "ไข่หวานปูอัดสไปซี่",
+                "quantity": 4,
+                "revenue": 60
             },
             {
                 "item": "สลัดหางปลาแซลมอน",
-                "quantity": 9,
-                "revenue": 9
+                "quantity": 14,
+                "revenue": 280
             },
             {
                 "item": "ซูชิแมงกะพรุนงา",
-                "quantity": 13,
-                "revenue": 13
+                "quantity": 9,
+                "revenue": 135
             }
         ]
     },
@@ -73,39 +63,24 @@
         "date": "2023-06-03",
         "sales": [
             {
-                "item": "อูมิมัตสิรึดีไลท์",
-                "quantity": 7,
-                "revenue": 7
-            },
-            {
-                "item": "ยำสาหร่ายกุ้งแก้ว",
-                "quantity": 8,
-                "revenue": 8
-            },
-            {
-                "item": "ยำปูอัดสาหร่าย",
-                "quantity": 1,
-                "revenue": 1
-            },
-            {
-                "item": "สลัดหางปลาแซลมอน",
-                "quantity": 12,
-                "revenue": 12
+                "item": "ปูอัดทอดกรอบ",
+                "quantity": 2,
+                "revenue": 20
             },
             {
                 "item": "ซูชิแมงกะพรุนงา",
-                "quantity": 11,
-                "revenue": 11
+                "quantity": 4,
+                "revenue": 60
             },
             {
                 "item": "ซูชิเบค่อนและมายองเนส",
-                "quantity": 5,
-                "revenue": 5
+                "quantity": 1,
+                "revenue": 20
             },
             {
-                "item": "ไข่หวานปูอัดสไปซี่",
-                "quantity": 1,
-                "revenue": 1
+                "item": "ยำสาหร่ายกุ้งแก้ว",
+                "quantity": 3,
+                "revenue": 60
             }
         ]
     }
