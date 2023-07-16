@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 openai.api_type = os.getenv(
     "OPENAI_TYPE"
 )  # From Go to Azure AI Studio -> Playground then we can use the API into our application
@@ -45,14 +44,14 @@ def ask_azure_dalle(question):
 
 
 def load_mock_daily_sales():
-    with open('mock_daily_sales.json', 'r', encoding='utf-8') as file:
+    with open("./data/mock_daily_sales.json", "r", encoding="utf-8") as file:
         data = json.load(file)
     return data
 
-def load_mock_ingredients():
-    with open('mock_ingredients.json', 'r', encoding='utf-8') as file:
-        data = json.load(file)
 
+def load_mock_ingredients():
+    with open("./data/mock_ingredients.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
     # Convert quantity values to integers
     for ingredient in data["ingredients"]:
         ingredient["quantity"] = int(ingredient["quantity"])
