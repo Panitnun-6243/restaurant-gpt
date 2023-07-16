@@ -242,7 +242,7 @@ def should_generate_new_menu(query):
 def should_generate_image(query):
     # Define the phrases that trigger image generation
     # Define the keywords that trigger image generation
-    trigger_keywords = ["picture", "photo", "image"]
+    trigger_keywords = ["picture", "photo", "image", "รูป","ภาพ","รูปภาพ"]
 
     # Convert the query to lowercase for case-insensitive matching
     query = query.lower()
